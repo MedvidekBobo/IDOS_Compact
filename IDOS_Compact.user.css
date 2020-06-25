@@ -2,10 +2,11 @@
 @name         IDOS Compact
 @description  Changes IDOS/CP colors, padings, etc.
 @namespace    BB.IDOS
-@version      2020.06.23
+@version      1.0.0
 @author       Bohumir Bednarik (https://github.com/MedvidekBobo)
 @homepageURL  https://raw.githubusercontent.com/medvidekBobo/IDOS_Compact/master/IDOS_Compact.user..css
 @license      Creative Commons Zero v1.0 Universal
+@lastupdate   June 25, 2020
 ==/UserStyle== */
 @-moz-document domain("idos.idnes.cz"), domain("cp.hnonline.sk") {
 .line-right-part {

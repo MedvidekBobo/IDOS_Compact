@@ -45,4 +45,4 @@ Update 29.5.2020
 Update 23.6.2020
 Provedena oprava drobné chyby (nedoklep).
 Provedeno nakopírování kódu do github.com, takže je styl dostupný na adrese:
-https://raw.githubusercontent.com/medvidekBobo/IDOS_Compact/master/IDOS_Compact.css?dummy=.user.css
+https://raw.githubusercontent.com/medvidekBobo/IDOS_Compact/master/IDOS_Compact.user.css

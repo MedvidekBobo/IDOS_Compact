@@ -46,3 +46,7 @@ Update 23.6.2020
 Provedena oprava drobné chyby (nedoklep).
 Provedeno nakopírování kódu do github.com, takže je styl dostupný na adrese:
 https://raw.githubusercontent.com/medvidekBobo/IDOS_Compact/master/IDOS_Compact.user.css
+
+Update 1.7.2020
+Provedena drobná oprava kódu pro zobrazení správného znaku nákupního "košíku" z písma Timetable (chybně se zobrazovala negativní osmička).
+

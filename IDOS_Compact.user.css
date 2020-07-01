@@ -253,7 +253,7 @@ div.connection-head.relative.zjr-panel {
 }
 
 .ico-basket::before {
-    content: 'i' !important;
+    content: '\00EC' !important;
     font-family: 'Timetable';
     font-size: 1.5em !important;
 }

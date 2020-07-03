@@ -9,7 +9,7 @@
 @license      Creative Commons Zero v1.0 Universal
 @lastupdate   July 3, 2020
 @preprocessor stylus
-@var checkbox allwayslight "Použít vždy svìtlé téma" 0
+@var checkbox allwayslight "Vzdy svetle tema" 0
 ==/UserStyle== */
 @-moz-document domain("idos.idnes.cz"), domain("cp.hnonline.sk") {
 .line-right-part {

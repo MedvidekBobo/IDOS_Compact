@@ -8,6 +8,8 @@
 @supportURL   https://raw.githubusercontent.com/MedvidekBobo/IDOS_Compact/master/README.md
 @license      Creative Commons Zero v1.0 Universal
 @lastupdate   July 3, 2020
+@preprocessor stylus
+@var checkbox allwayslight "Použít vždy svìtlé téma" 0
 ==/UserStyle== */
 @-moz-document domain("idos.idnes.cz"), domain("cp.hnonline.sk") {
 .line-right-part {
@@ -306,6 +308,7 @@ media prefers-color-scheme: dark
 ================================================================================
 */
 @media (prefers-color-scheme: dark) {
+if allwayslight == 0 {
     body {
         background: #234;
         color: #eee;
@@ -991,5 +994,6 @@ pokus o prebarveni nekterych barev dopravnich prostredku
     h3[style="color:#008000; display:inline"] {
         color: #66a066 !important;
     }
+}
 }
 }

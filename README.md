@@ -50,3 +50,8 @@ https://raw.githubusercontent.com/medvidekBobo/IDOS_Compact/master/IDOS_Compact.
 Update 1.7.2020
 Provedena drobná oprava kódu pro zobrazení správného znaku nákupního "košíku" z písma Timetable (chybně se zobrazovala negativní osmička).
 Ještě doplněno jedno pravidlo pro změnu barvy písma popisku při ukládání karty v dark módu. verze změněna na 1.0.2
+
+Update 3.7.2020
+Proveden pokud o doplnění přepínače na použití světlého tématu "vždy" (tzn. i když je v systémnu/prohlížeči nastaveno téma tmavé).
+Doplněny některé parametry v hlavičce stylu (nepodstatné pro funkčnost).
+

@@ -1,5 +1,5 @@
 # IDOS_Compact
-Style for IDOS
+CSS pro nový IDOS
 
 Zmenší prostor, který zabírají výsledky hledání spojení novou verzí aplikace IDOS.cz (https://idos.idnes.cz/) resp. CP.sk
 (https://cp.hnonline.sk).
@@ -52,6 +52,5 @@ Provedena drobná oprava kódu pro zobrazení správného znaku nákupního "ko�
 Ještě doplněno jedno pravidlo pro změnu barvy písma popisku při ukládání karty v dark módu. verze změněna na 1.0.2
 
 Update 3.7.2020
-Proveden pokud o doplnění přepínače na použití světlého tématu "vždy" (tzn. i když je v systémnu/prohlížeči nastaveno téma tmavé).
+Proveden pokus o doplnění přepínače na použití světlého tématu "vždy světlé téma" (tzn. i když je v systémnu/prohlížeči nastaveno téma tmavé, bude možné zapnout světlé téma).
 Doplněny některé parametry v hlavičce stylu (nepodstatné pro funkčnost).
-

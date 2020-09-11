@@ -943,6 +943,9 @@ if allwayslight == 0 {
     .onClickPaymentInfoHeader {
         color: #ccc !important;
     }
+	  .line-title .specs {
+	    color: #333;
+	  }
 
     /*
 pokus o prebarveni nekterych barev dopravnich prostredku

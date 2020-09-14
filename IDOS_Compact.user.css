@@ -2,7 +2,7 @@
 @name         IDOS Compact
 @description  Changes IDOS/CP colors, padings, etc.
 @namespace    BB.IDOS
-@version      1.0.7
+@version      1.0.8
 @author       Bohumir Bednarik (https://github.com/MedvidekBobo)
 @homepageURL  https://raw.githubusercontent.com/medvidekBobo/IDOS_Compact/master/IDOS_Compact.user.css
 @supportURL   https://raw.githubusercontent.com/MedvidekBobo/IDOS_Compact/master/README.md
@@ -943,8 +943,9 @@ if allwayslight == 0 {
     .onClickPaymentInfoHeader {
         color: #ccc !important;
     }
-    .line-title .specs {
-        color: #333;
+
+    .fcext {
+        color: #333 !important;
     }
 
     span .wwwtt {

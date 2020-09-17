@@ -58,6 +58,8 @@ Doplněny některé parametry v hlavičce stylu (nepodstatné pro funkčnost).
 Update 11.9.2020
 Doplněna tmavší barva písma u pevných kódu s podbarvením (světle červeným), kde nebyl tento kód čitelný (jedná se o pevné kódy, které nejsou v celé trase spoje).
 
-
 Update 14.9.2020
 Doplněno pravidlo pro přebarvení pevných kódů zobrazovaných za názvy zastávek v dráze spoje (jsou-li vypsány písmem Timetable).
+
+Update 17.9.2020
+Drobné úpravy spojené s poslední úpravou IDOS.

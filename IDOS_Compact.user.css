@@ -2,7 +2,7 @@
 @name         IDOS Compact
 @description  Changes IDOS/CP colors, padings, etc.
 @namespace    BB.IDOS
-@version      1.0.8
+@version      1.0.9
 @author       Bohumir Bednarik (https://github.com/MedvidekBobo)
 @homepageURL  https://raw.githubusercontent.com/medvidekBobo/IDOS_Compact/master/IDOS_Compact.user.css
 @supportURL   https://raw.githubusercontent.com/MedvidekBobo/IDOS_Compact/master/README.md
@@ -299,6 +299,14 @@ media print
     }
     table.zjr-table.times tr td {
         border-bottom: 1px solid gray;
+    }
+
+    .connection .connection-head input[type="checkbox"].choose-conn + label {
+        padding-right: 4em !important;
+    }
+
+    .connection .connection-head .date-total {
+        padding: .3em 0;
     }
 }
 
@@ -953,6 +961,22 @@ if allwayslight == 0 {
     }
     .specs .wwwtt {
         color: #ccc;
+    }
+
+    .connection .connection-head input[type="checkbox"].choose-conn + label {
+        padding-right: 4em !important;
+    }
+
+    .connection .connection-head input[type="checkbox"].choose-conn + label > span.fake-conn-checkbox:hover {
+        background-color: #666;
+    }
+
+    .connection .connection-head .date-total a:hover {
+        background-color: #666;
+    }
+
+    .connection .connection-head .date-total {
+        padding: .3em 0;
     }
 
     /*

@@ -979,6 +979,15 @@ if allwayslight == 0 {
         padding: .3em 0;
     }
 
+    .line-itinerary .item:hover {
+        background-color: #555;
+    }
+
+    .line-itinerary .item .text-position:hover, .line-itinerary .item .text-position:focus {
+        background-color: #888;
+        color: #333 !important;
+    }
+
     /*
 pokus o prebarveni nekterych barev dopravnich prostredku
 */

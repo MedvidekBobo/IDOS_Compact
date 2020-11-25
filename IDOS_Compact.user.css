@@ -2,12 +2,12 @@
 @name         IDOS Compact
 @description  Changes IDOS/CP colors, padings, etc.
 @namespace    BB.IDOS
-@version      1.0.10
+@version      1.0.11
 @author       Bohumir Bednarik (https://github.com/MedvidekBobo)
 @homepageURL  https://raw.githubusercontent.com/medvidekBobo/IDOS_Compact/master/IDOS_Compact.user.css
 @supportURL   https://raw.githubusercontent.com/MedvidekBobo/IDOS_Compact/master/README.md
 @license      Creative Commons Zero v1.0 Universal
-@lastupdate   September 17, 2020
+@lastupdate   November 25, 2020
 @preprocessor stylus
 @var checkbox allwayslight "Vzdy svetle tema" 0
 ==/UserStyle== */
@@ -987,6 +987,14 @@ if allwayslight == 0 {
         background-color: #888;
         color: #333 !important;
     }
+		
+		.delay__table td {
+		  background: #555;
+		}
+		
+		.delay__table {
+		  border: 1px solid #666;
+		}
 
     /*
 pokus o prebarveni nekterych barev dopravnich prostredku

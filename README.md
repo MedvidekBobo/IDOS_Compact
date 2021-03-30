@@ -63,3 +63,10 @@ Doplněno pravidlo pro přebarvení pevných kódů zobrazovaných za názvy zas
 
 Update 17.9.2020
 Drobné úpravy spojené s poslední úpravou IDOS.
+
+Update 30.3.2021
+Doplněna úprava výšky našeptávače související s úpravou IDOS.cz. Našeptávač byl
+programátory na moji žádost rozšířen z 12 na 18 položek (požadoval jsem víc,
+ale nebylo přijato), nicméně jeho výšku (přestože jsem je na to upozornil) nijak
+neupravili, takže se moc roztahuje postránce. Tato úprava zavádí omezení jeho
+výšky na cca 10 položek a zavedení vertikálního posuvníku, pokud je položek více.

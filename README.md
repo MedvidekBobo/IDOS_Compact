@@ -70,3 +70,4 @@ programátory na moji žádost rozšířen z 12 na 18 položek (požadoval jsem 
 ale nebylo přijato), nicméně jeho výšku (přestože jsem je na to upozornil) nijak
 neupravili, takže se moc roztahuje postránce. Tato úprava zavádí omezení jeho
 výšky na cca 10 položek a zavedení vertikálního posuvníku, pokud je položek více.
+Doplněna drobná oprava zobrazování titulku tooltipu v mapě.

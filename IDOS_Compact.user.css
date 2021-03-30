@@ -2,7 +2,7 @@
 @name         IDOS Compact
 @description  Changes IDOS/CP colors, padings, etc.
 @namespace    BB.IDOS
-@version      1.0.13
+@version      1.0.14
 @author       Bohumir Bednarik (https://github.com/MedvidekBobo)
 @homepageURL  https://raw.githubusercontent.com/medvidekBobo/IDOS_Compact/master/IDOS_Compact.user.css
 @supportURL   https://raw.githubusercontent.com/MedvidekBobo/IDOS_Compact/master/README.md
@@ -1008,6 +1008,11 @@ if allwayslight == 0 {
 		.delay__table {
 		  border: 1px solid #666;
 		}
+
+		.map-station-tooltip strong, .map-train-tooltip strong {
+				color: black !important;
+		}
+
 
     /*
 pokus o prebarveni nekterych barev dopravnich prostredku

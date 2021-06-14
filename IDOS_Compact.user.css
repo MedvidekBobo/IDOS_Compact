@@ -2,12 +2,12 @@
 @name         IDOS Compact
 @description  Changes IDOS/CP colors, padings, etc.
 @namespace    BB.IDOS
-@version      1.0.14
+@version      1.0.15
 @author       Bohumir Bednarik (https://github.com/MedvidekBobo)
 @homepageURL  https://raw.githubusercontent.com/medvidekBobo/IDOS_Compact/master/IDOS_Compact.user.css
 @supportURL   https://raw.githubusercontent.com/MedvidekBobo/IDOS_Compact/master/README.md
 @license      Creative Commons Zero v1.0 Universal
-@lastupdate   March 30, 2021
+@lastupdate   June 14, 2021
 @preprocessor stylus
 @var checkbox allwayslight "Vzdy svetle tema" 0
 ==/UserStyle== */
@@ -282,6 +282,12 @@ div.connection-head.relative.zjr-panel {
 .ui-menu-item:hover {
     background-color: #0A246A;
     color: white;
+}
+
+.total {
+  margin-right: 2.5em;
+  width: auto !important;
+  float: right;
 }
 
 /*

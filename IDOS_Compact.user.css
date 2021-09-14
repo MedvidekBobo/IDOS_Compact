@@ -2,16 +2,18 @@
 @name         IDOS Compact
 @description  Changes IDOS/CP colors, padings, etc.
 @namespace    BB.IDOS
-@version      1.0.15
+@version      1.0.16
 @author       Bohumir Bednarik (https://github.com/MedvidekBobo)
 @homepageURL  https://raw.githubusercontent.com/medvidekBobo/IDOS_Compact/master/IDOS_Compact.user.css
 @supportURL   https://raw.githubusercontent.com/MedvidekBobo/IDOS_Compact/master/README.md
 @license      Creative Commons Zero v1.0 Universal
-@lastupdate   June 14, 2021
+@lastupdate   September 14, 2021
 @preprocessor stylus
 @var checkbox allwayslight "Vzdy svetle tema" 0
+@var checkbox defaultsize "Ponechat pùvodní rozmìry" 0
 ==/UserStyle== */
 @-moz-document domain("idos.idnes.cz"), domain("cp.hnonline.sk") {
+if defaultsize == 0 {
 .line-right-part {
     max-height: 1em;
 }
@@ -321,6 +323,7 @@ media print
 		  white-space: nowrap;
 		}
 
+}
 }
 
 /*

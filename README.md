@@ -71,3 +71,6 @@ ale nebylo přijato), nicméně jeho výšku (přestože jsem je na to upozornil
 neupravili, takže se moc roztahuje postránce. Tato úprava zavádí omezení jeho
 výšky na cca 10 položek a zavedení vertikálního posuvníku, pokud je položek více.
 Doplněna drobná oprava zobrazování titulku tooltipu v mapě.
+
+Update 14.9.2021
+Doplněn přepínač na ponechání původních rozměrů IDOSu (pokud by to někomu tak vyhovovalo).

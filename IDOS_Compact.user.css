@@ -10,7 +10,7 @@
 @lastupdate   September 14, 2021
 @preprocessor stylus
 @var checkbox allwayslight "Vzdy svetle tema" 0
-@var checkbox defaultsize "Ponechat pùvodní rozmìry" 0
+@var checkbox defaultsize "Ponechat puvodni rozmery" 0
 ==/UserStyle== */
 @-moz-document domain("idos.idnes.cz"), domain("cp.hnonline.sk") {
 if defaultsize == 0 {

@@ -7,7 +7,7 @@
 @homepageURL  https://raw.githubusercontent.com/medvidekBobo/IDOS_Compact/master/IDOS_Compact.user.css
 @supportURL   https://raw.githubusercontent.com/MedvidekBobo/IDOS_Compact/master/README.md
 @license      Creative Commons Zero v1.0 Universal
-@lastupdate   2021-09-15T18:57:00
+@lastupdate   2021-09-15T19:35:00
 @preprocessor stylus
 @var checkbox allwayslight "Vzdy svetle tema" 0
 @var checkbox defaultsize "Ponechat puvodni rozmery" 0
@@ -1228,6 +1228,13 @@ pokus o prebarveni nekterych barev dopravnich prostredku
   padding-top: 16px;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.line-share li:hover, .line-share li:focus {
+  background-color: #555;
+}
+.popup .popup-close:hover, .popup .popup-close:focus {
+  background-color: #555;
 }
 
 }

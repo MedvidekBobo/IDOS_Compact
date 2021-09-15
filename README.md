@@ -74,3 +74,6 @@ Doplněna drobná oprava zobrazování titulku tooltipu v mapě.
 
 Update 14.9.2021
 Doplněn přepínač na ponechání původních rozměrů IDOSu (pokud by to někomu tak vyhovovalo).
+
+Update 15.9.2021
+Doplněny styly pro přepsání černých obrázků dopravních prostředků ve tmavém tématu na bílé.

@@ -2,12 +2,12 @@
 @name         IDOS Compact
 @description  Changes IDOS/CP colors, padings, etc.
 @namespace    BB.IDOS
-@version      1.1.02
+@version      1.1.03
 @author       Bohumir Bednarik (https://github.com/MedvidekBobo)
 @homepageURL  https://raw.githubusercontent.com/medvidekBobo/IDOS_Compact/master/IDOS_Compact.user.css
 @supportURL   https://raw.githubusercontent.com/MedvidekBobo/IDOS_Compact/master/README.md
 @license      Creative Commons Zero v1.0 Universal
-@lastupdate   2022-05-13 06:16:00
+@lastupdate   2022-05-13 06:24:00
 @preprocessor stylus
 @var checkbox allwayslight "Vzdy svetle tema" 0
 @var checkbox defaultsize "Ponechat puvodni rozmery" 0
@@ -396,6 +396,10 @@ if allwayslight == 0 {
 
     a {
         color: #aaa !important;
+    }
+
+    .categories a {
+        color: #fff !important;
     }
 
     .btn-orange {

@@ -2,12 +2,12 @@
 @name         IDOS Compact
 @description  Changes IDOS/CP colors, padings, etc.
 @namespace    BB.IDOS
-@version      1.1.06
+@version      1.1.07
 @author       Bohumir Bednarik (https://github.com/MedvidekBobo)
 @homepageURL  https://raw.githubusercontent.com/medvidekBobo/IDOS_Compact/master/IDOS_Compact.user.css
 @supportURL   https://raw.githubusercontent.com/MedvidekBobo/IDOS_Compact/master/README.md
 @license      Creative Commons Zero v1.0 Universal
-@lastupdate   2022-05-24 05:26:00
+@lastupdate   2022-05-24 05:40:00
 @preprocessor stylus
 @var checkbox allwayslight "Vzdy svetle tema" 0
 @var checkbox defaultsize "Ponechat puvodni rozmery" 0
@@ -300,6 +300,11 @@ div.connection-head.relative.zjr-panel {
 #mc-text {
   padding-left: 30px !important;
 }
+
+.payBasket {
+  margin-left: 0 !important;
+}
+
 
 /*
 ================================================================================
@@ -1038,35 +1043,44 @@ if allwayslight == 0 {
         color: #333 !important;
     }
 		
-		.delay__table td {
-		  background: #555;
-		}
-		
-		.delay__table {
-		  border: 1px solid #666;
-		}
+	.delay__table td {
+		background: #555;
+	}
+	
+	.delay__table {
+		border: 1px solid #666;
+	}
 
-		.map-station-tooltip strong, .map-train-tooltip strong {
-				color: black !important;
-		}
+	.map-station-tooltip strong, .map-train-tooltip strong {
+		color: black !important;
+	}
 
-		.inp-combined .ico-map {
-		  color: #999;
-		}
+	.inp-combined .ico-map {
+		color: #999;
+	}
 
-		.inp-combined .ico-map:hover {
-		  color: #ddd;
-		}
+	.inp-combined .ico-map:hover {
+		color: #ddd;
+	}
 
-		.btn-lightgreen {
-		  border-bottom-color: #252 !important;
-		  background-color: #252 !important;
-		  background-image: -webkit-linear-gradient(top, #252 0%, #272 50%, #292 100%) !important;
-		}
+	.btn-lightgreen {
+		border-bottom-color: #252 !important;
+		background-color: #252 !important;
+		background-image: -webkit-linear-gradient(top, #252 0%, #272 50%, #292 100%) !important;
+		color: white !important;
+	}
 
-		.btn-buy {
-		  color: white !important;
-		}
+	.btn-green {
+		color: white !important;
+	}
+
+	.btn-buy {
+		color: white !important;
+	}
+
+	.modify-passenger-form .passengers-controls .btn-green {
+		color: white !important;
+	}
 
     /*
 pokus o prebarveni nekterych barev dopravnich prostredku

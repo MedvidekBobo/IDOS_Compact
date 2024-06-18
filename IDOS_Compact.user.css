@@ -697,6 +697,18 @@ if allwayslight == 0 {
         border-top: 1px solid #666;
     }
 
+	#alternativeOffers .alternative-offer {
+	  background-color: #444 !important;
+	}
+
+	a.description-alternative-offer {
+	  text-decoration: underline !important;
+	}
+
+	a.description-alternative-offer:hover {
+	  color: white !important;
+	}
+
     .dep-row-first,
     .dep-row-second {
         background-color: #333;
